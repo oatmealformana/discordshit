@@ -1,0 +1,155 @@
+const converted = {
+  '@import url("https://nyri4.github.io/LilyPichu/main.css")': true,
+  ":root": {
+    "--jumping-gif":
+      "url('https://cdn.discordapp.com/guilds/853257733628100628/users/154702878001332225/avatars/a_f5153c097e113f43dd23b26963797e4e.gif?size=4096')",
+    "--background-tertiary-alt": 'url("https://i.imgur.com/h1Z0g9P.png")',
+    "--border-radius": "30px"
+  },
+  ".theme-dark": {
+    "--text-normal": "#547946bb",
+    "--header-primary": "#5ea727",
+    "--interactive-normal": "#53812f",
+    "--channels-default": "#53812f",
+    "--text-muted": "#398a00",
+    "--interactive-muted": "#3a5228",
+    "--header-secondary": "#53812f",
+    "--interactive-hover": "#91cc63",
+    "--interactive-active": "#91cc63",
+    "--background-primary": "#10110e",
+    "--background-secondary": "#161814",
+    "--background-secondary-alt": "#161a13",
+    "--background-tertiary": "#1c1f16",
+    "--background-floating": "#1b220e",
+    "--background-accent": "#395815",
+    "--channeltextarea-background": "var(--background-secondary)",
+    "--background-modifier-hover": "rgba(26, 71, 21, 0.32)",
+    "--background-modifier-active": "rgba(41, 141, 29, 0.32)",
+    "--background-modifier-selected": "rgba(40, 94, 34, 0.32)",
+    "--toast-background": "#161814 !important",
+    "--toast-header": "#161814 !important",
+    "--toast-contents": "#161a13 !important",
+    "--toast-border": "#161a13 !important",
+    "--scrollbar-auto-thumb": "var(--background-tertiary)",
+    "--scrollbar-auto-track": "var(--background-secondary-alt)",
+    "--scrollbar-thin-thumb": "var(--background-tertiary)",
+    "--scrollbar-thin-track": "transparent",
+    "--deprecated-quickswitcher-input-background": "var(--background-primary)"
+  },
+  ".colorBrand-ROmMP1": { color: "#c5536c" },
+  ".colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O)": {
+    backgroundColor: "var(--background-modifier-hover) !important",
+    color: "var(--interactive-normal)"
+  },
+  ".lookFilled-1Gx00P": { backgroundColor: "#c5536c !important" },
+  ".lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover": {
+    backgroundColor: "#b64a61 !important"
+  },
+  ".lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ)": {
+    color: "#c5536c",
+    borderColor: "#c5536c"
+  },
+  ".theme-light": {
+    "--text-normal": "#547946bb",
+    "--header-primary": "#5ea727",
+    "--interactive-normal": "#53812f",
+    "--channels-default": "#53812f",
+    "--text-muted": "#398a00",
+    "--interactive-muted": "#3a5228",
+    "--header-secondary": "#53812f",
+    "--interactive-hover": "#91cc63",
+    "--interactive-active": "#91cc63",
+    "--background-primary": "#0d0e0c",
+    "--background-secondary": "#161814",
+    "--background-secondary-alt": "#161a13",
+    "--background-tertiary": "#220f14",
+    "--background-floating": "#221115",
+    "--background-accent": "#395815",
+    "--channeltextarea-background": "var(--background-secondary)",
+    "--background-modifier-hover": "rgba(26, 71, 21, 0.32)",
+    "--background-modifier-active": "rgba(41, 141, 29, 0.32)",
+    "--background-modifier-selected": "rgba(40, 94, 34, 0.32)",
+    "--scrollbar-auto-thumb": "var(--background-tertiary)",
+    "--scrollbar-auto-track": "var(--background-secondary-alt)",
+    "--scrollbar-thin-thumb": "var(--background-tertiary)",
+    "--scrollbar-thin-track": "transparent",
+    "--deprecated-quickswitcher-input-background": "var(--background-primary)"
+  },
+  ":root .app-3xd6d0::after": {
+    zIndex: 0,
+    left: "50px",
+    bottom: "0",
+    width: "0px",
+    height: "0px",
+    background: 'url("https://i.imgur.com/KQQWcTY.png") no-repeat',
+    backgroundSize: "100%"
+  },
+  ":root .app-2CXKsg::before": {
+    top: "120px",
+    right: "-5px",
+    width: "420px",
+    height: "240px",
+    background: 'url("https://i.imgur.com/TdSaA2m.gif") no-repeat',
+    backgroundSize: "100%"
+  },
+  ":root .app-2CXKsg::after": {
+    bottom: "20px",
+    right: "45%",
+    width: "160px",
+    height: "60px",
+    background: 'url("https://i.imgur.com/nzRR9Hv.gif")',
+    backgroundSize: "100%"
+  },
+  ":root .layers-OrUESM::before": {
+    zIndex: 0,
+    bottom: "600px",
+    right: "50px",
+    width: "100px",
+    height: "250px",
+    background: 'url("https://i.imgur.com/3AevN7d.png") no-repeat',
+    backgroundSize: "100%"
+  },
+  ":root .layers-OrUESM::after": {
+    bottom: "800px",
+    right: "1375px",
+    width: "100px",
+    height: "100px",
+    background: 'url("https://i.imgur.com/6h1FP7t.gif") no-repeat',
+    backgroundSize: "100%"
+  },
+  ":root .bg-1QIAus::after": {
+    top: "450px",
+    right: "360px",
+    width: "70px",
+    height: "70px",
+    background: 'url("https://i.imgur.com/Fau5L8c.gif") no-repeat',
+    backgroundSize: "100%"
+  },
+  ":root .bg-1QIAus::before": {
+    zIndex: 2,
+    bottom: "30%",
+    right: "430px",
+    width: "30px",
+    height: "40px",
+    background: 'url("https://i.imgur.com/XC2agTC.gif") no-repeat',
+    backgroundSize: "100%",
+    content: "none !important"
+  },
+  ".container-1eFtFS::after": {
+    content: '"sexiest theme both on and off  discord"'
+  },
+  ".homeIcon-r0w4ny path": { fill: "transparent" },
+  ".homeIcon-r0w4ny": {
+    background: "url('https://i.imgur.com/XC2agTC.gif') center/cover no-repeat",
+    minWidth: "60px",
+    minHeight: "60px"
+  },
+  ":root .app-3xd6d0::before": {
+    left: "0",
+    top: "0",
+    width: "0px",
+    height: "0px",
+    background: 'url("https://i.imgur.com/jTpFJuI.png") no-repeat',
+    backgroundSize: "100%"
+  }
+}
