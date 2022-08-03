@@ -1,5 +1,5 @@
-const converted = {
-  '@import url("https://nyri4.github.io/LilyPichu/main.css")': true,
+
+  @import url("https://nyri4.github.io/LilyPichu/main.css")': true,
   ":root": {
     "--jumping-gif":
       "url('https://cdn.discordapp.com/guilds/853257733628100628/users/154702878001332225/avatars/a_f5153c097e113f43dd23b26963797e4e.gif?size=4096')",
